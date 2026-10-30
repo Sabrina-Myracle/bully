@@ -1,0 +1,24 @@
+Package: bully
+Type: Package
+Title: A Taunting Word Guessing Game
+Version: 0.1.0
+Authors@R: c(
+    person(
+      "Sabrina", "Myracle",
+      email = "sabrina.b.myracle@gmail.com",
+      role = c("aut", "cre","cph")
+    )
+  )
+Description: Try to guess the word, that our Bully the computer has picked from its only slightly biased,
+     but very large word bank. The catch is that for every wrong guess you will be taunted.
+    There's an escape entry to free up your console but you will leave with out dignity either.
+    This is a package where the snark runs deep, each functions name reveals what Bully is really thinking. 
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
+Config/roxygen2/version: 8.1.0
+Depends: 
+    R (>= 3.5)

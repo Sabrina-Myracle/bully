@@ -1,0 +1,59 @@
+
+# Bully
+
+<!-- badges: start -->
+
+<!-- badges: end -->
+
+Try to guess the word, that our Bully the computer has picked from its
+only slightly biased, but very large word bank.
+
+The catch is that for every wrong guess you will be taunted.
+
+There’s an escape entry to free up your console but you will leave with
+out dignity either.
+
+This is a package where the snark runs deep, each functions name reveals
+what Bully is really thinking.
+
+## Installation
+
+You can install the development version of bully like after it pushes to
+github
+
+``` r
+# FILL THIS IN! HOW CAN PEOPLE INSTALL YOUR DEV PACKAGE?
+```
+
+## Usage
+
+You can begin your word guessing match against Bully by typing
+Bully().
+
+He might question your life choices, but he will proceed to run the game
+using helper functions.
+
+The main parameter you can change is in Bully(), this controls the
+number of guesses per degree of patience bully loops through.
+
+If you explore the documentation you will find parameters to his helper
+functions which allow customization of the game including substituting
+your own vector of words for Bully to choose from in box_of_crayons(),
+or adjusting his responses. These parameters are available in the
+documentation of the responsible functions.
+
+Fair warning, Bully insists on his dramatic entrance so the introductory
+function Oh_Hello is not easily customnized.
+
+It’s important to note Bully will invoke his God of computers and ask
+for Mercy but still permit more than 7 guesses per loop.
+
+If you sign yourself up for more guessing and taunting than you
+bargained for you can escape by typing “colonel_runaway” into your
+console, it will trigger an error in the function messy_human()
+returning your console to you.
+
+Good luck, and remember… Don’t Blink.
+
+You’ll still need to render `README.Rmd` regularly, to keep `README.md`
+up-to-date. `devtools::build_readme()` is handy for this.
