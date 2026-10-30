@@ -21,11 +21,11 @@ what Bully is really thinking.
 You can install Bully directly from GitHub using the remotes package. If
 you don’t already have this, it’s here:
 
-install.packages(“remotes”)
+install.packages("remotes")
 
 Install Bully specifically and load the package using:
 
-remotes::install_github(“Sabrina-Myracle/bully”)
+remotes::install_github("Sabrina-Myracle/bully")
 
 library(bully)
 
