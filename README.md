@@ -63,6 +63,3 @@ console, it will trigger an error in the function messy_human()
 returning your console to you.
 
 Good luck, and remember… Don’t Blink.
-
-You’ll still need to render `README.Rmd` regularly, to keep `README.md`
-up-to-date. `devtools::build_readme()` is handy for this.
