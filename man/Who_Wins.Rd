@@ -8,18 +8,18 @@ Who_Wins(result)
 }
 \arguments{
 \item{result}{either TRUE or FALSE.
-this is fed from the haha_its_a_guess function.}
+this is fed from the Haha_its_a_Guess function.}
 }
 \value{
 TRUE will cue the winning phrase, and return a value that cleanly ends the game.
 FALSE does nothing and lets guessing loop in Bully continue.
 }
 \description{
-If haha_its_a_guess returns TRUE this function returns a value to the main Bully function,
+If Haha_its_a_Guess returns TRUE this function returns a value to the main Bully function,
  and displays the winning phrase combination from Bully's native responses table.
 }
 \examples{
- Who_wins(result)
+ Who_Wins(result)
 sad==FALSE
-Who_wins(sad)
+Who_Wins(sad)
 }

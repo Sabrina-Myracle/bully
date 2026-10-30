@@ -13,7 +13,7 @@ guess, it returns the user input as a character string using lowercase letters
 Handles users input by converting case to lower case in order to match the native word bank.
 Sets an emergency exit by testing for input designed to crash the program.
 Runs a loop until user input only equals character.
-uses cat to disply snarky response to user from Bully's native response table.
+uses cat to display snarky response to user from Bully's native response table.
 }
 \examples{
 messy_human()

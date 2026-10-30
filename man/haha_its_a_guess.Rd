@@ -7,7 +7,7 @@
 haha_its_a_guess(column, password)
 }
 \arguments{
-\item{column}{A colunm from Bully's native response table. potentially interchangeable is user downloads their own response table.}
+\item{column}{A column from Bully's native response table. Potentially interchangeable if user downloads their own response table.}
 
 \item{password}{the object returned from Box_of_Crayons.}
 }

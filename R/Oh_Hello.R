@@ -1,4 +1,7 @@
-#responses is a Converted csv file saves it as an rdafile
+#'Oh Hello
+#'
+#'@description Bully's dramatic entrance introduces the users to the rules and times the dialogue for legibility.
+
 #'@export
 Oh_Hello<-function() {
   cat(sample(responses$Introduction,1))
