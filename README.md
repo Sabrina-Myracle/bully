@@ -18,23 +18,20 @@ what Bully is really thinking.
 
 ## Installation
 
-You can install Bully directly from GitHub using the remotes package.
-
-If you don’t already have remotes, install it first:
+You can install Bully directly from GitHub using the remotes package. If
+you don’t already have this, it’s here:
 
 install.packages(“remotes”)
 
-Then install Bully:
+Install Bully specifically and load the package using:
 
 remotes::install_github(“Sabrina-Myracle/bully”)
 
-Playing Bully
-
-Load the package:
-
 library(bully)
 
-Start the game: Bully()
+Start the game by calling the function:
+
+Bully()
 
 Good Luck, and Trust the Awesomeness
 
