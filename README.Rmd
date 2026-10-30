@@ -27,11 +27,25 @@ The catch is that for every wrong guess you will be taunted.
 
 ## Installation
 
-You can install the development version of bully like after it pushes to github
+You can install Bully directly from GitHub using the remotes package.
 
-``` r
-# FILL THIS IN! HOW CAN PEOPLE INSTALL YOUR DEV PACKAGE?
-```
+If you don't already have remotes, install it first:
+
+install.packages("remotes")
+
+Then install Bully:
+
+remotes::install_github("Sabrina-Myracle/bully")
+
+Playing Bully
+
+Load the package:
+
+library(bully)
+
+Start the game: Bully()
+
+Good Luck, and Trust the Awesomeness
 
 ## Usage
 You can begin your word guessing match against Bully by typing Bully().  

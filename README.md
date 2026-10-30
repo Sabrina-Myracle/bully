@@ -18,18 +18,30 @@ what Bully is really thinking.
 
 ## Installation
 
-You can install the development version of bully like after it pushes to
-github
+You can install Bully directly from GitHub using the remotes package.
 
-``` r
-# FILL THIS IN! HOW CAN PEOPLE INSTALL YOUR DEV PACKAGE?
-```
+If you don’t already have remotes, install it first:
+
+install.packages(“remotes”)
+
+Then install Bully:
+
+remotes::install_github(“Sabrina-Myracle/bully”)
+
+Playing Bully
+
+Load the package:
+
+library(bully)
+
+Start the game: Bully()
+
+Good Luck, and Trust the Awesomeness
 
 ## Usage
 
 You can begin your word guessing match against Bully by typing
-Bully().
-
+Bully().  
 He might question your life choices, but he will proceed to run the game
 using helper functions.
 
@@ -43,7 +55,7 @@ or adjusting his responses. These parameters are available in the
 documentation of the responsible functions.
 
 Fair warning, Bully insists on his dramatic entrance so the introductory
-function Oh_Hello is not easily customnized.
+function Oh_Hello is not easiliy customizable.
 
 It’s important to note Bully will invoke his God of computers and ask
 for Mercy but still permit more than 7 guesses per loop.
